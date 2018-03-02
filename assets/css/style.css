@@ -415,7 +415,7 @@ p {
 }
 
 /*tombol*/
-
+@media screen and (min-width: 481px) {
 .pilihan{
  text-align: center;    
 }
@@ -425,13 +425,12 @@ p {
 
 .pilihan ul li{
     margin-bottom: 5px;
-    width: 3em;
-    margin: 17px;
+    width: 2em;
+    margin: 18px;
 }
 
 .list-inline{
     list-style: none;
-    margin-left: -5px;
     padding-left: 0;
     
 }
@@ -444,7 +443,37 @@ p {
 }
 
 .btn-primary :hover{
+}
+}
+
+@media screen and (max-width: 480px) {
+.pilihan{
+ text-align: center;    
+}
+
+.pilihan ul{
+    margin-right: 35px;
+}
+
+.pilihan ul li{
+    margin-bottom: 5px;
+    width: 10%;
+    margin: 10px 20px;
+}
+
+.list-inline{
+    list-style: none;
+}
+.list-inline li{
+    display: inline-block;
     
+}
+.pilihan .btn-primary{
+    background: #c56c6c;    
+}
+
+.btn-primary :hover{
+}
 }
 /*tombol*/
 
